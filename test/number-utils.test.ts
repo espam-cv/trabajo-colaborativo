@@ -1,5 +1,5 @@
 import { sum } from '../src/number-utils';
-import { ultimaLetra } from '../src/string-utils';
+import { letterLast } from '../src/string-utils';
 describe('blah', () => {
   it('works', () => {
     expect(sum(1, 1)).toEqual(2);
@@ -7,8 +7,8 @@ describe('blah', () => {
 });
 
 
-describe('ultimaLetra', () => {
+describe('letterLast', () => {
   it('should palabra hola return a', () => {
-    expect(ultimaLetra("hola")).toEqual('a');
+    expect(letterLast("hola")).toEqual('a');
   });
 });

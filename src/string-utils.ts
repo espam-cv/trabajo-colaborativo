@@ -1,4 +1,3 @@
-export const ultimaLetra = (palabra: string) => {
-    
-    return palabra.charAt(palabra.length - 1);
-  };
+export const letterLast = (palabra: string) => {
+  return palabra.charAt(palabra.length - 1);
+};
