@@ -1,5 +1,3 @@
-let str = 'cadena'
-function CovertString (str: string)
-{
-    return str.toUpperCase();
+export function convertStringToUpperCase(str: string) {
+  return str.toUpperCase();
 }
