@@ -1,4 +1,5 @@
 import { sum } from '../src/number-utils';
+import { firstValue } from '../src/array-utils';
 
 describe('blah', () => {
   it('works', () => {
@@ -6,4 +7,9 @@ describe('blah', () => {
   });
 });
 
-
+describe('firstValue', () => {
+  it('should get the first value of an array', () => {
+    const mockArray = ['Roberto', 'Loayza'];
+    expect(firstValue(mockArray)).toEqual('Roberto');
+  });
+});
