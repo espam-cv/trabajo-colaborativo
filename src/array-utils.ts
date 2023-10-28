@@ -1,4 +1,3 @@
-export const primerValor = (array: string[]) => {
-  console.log(array[0]);
+export const firstValue = (array: string[]) => {
   return array[0];
 };
