@@ -5,7 +5,7 @@ export const sum = (a: number, b: number) => {
   return a + b;
 };
 
-export const esImpar = (a: number) => {
+export const isOdd = (a: number) => {
   if (a % 2 === 0) {
     return false;
   } else {

@@ -1,4 +1,4 @@
-import { esImpar, sum } from './../src/number-utils';
+import { isOdd, sum } from './../src/number-utils';
 
 describe('blah', () => {
   it('works', () => {
@@ -6,12 +6,12 @@ describe('blah', () => {
   });
 });
 
-describe('esImpar', () => {
-  it('should return True if number is impar', () => {
-    expect(esImpar(5)).toEqual(true);
+describe('isOdd', () => {
+  it('should return true if number is odd', () => {
+    expect(isOdd(5)).toEqual(true);
   });
 
-  it('should return False if number is par', () => {
-    expect(esImpar(6)).toEqual(false);
+  it('should return false if number is even', () => {
+    expect(isOdd(6)).toEqual(false);
   });
 });
