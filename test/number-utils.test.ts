@@ -1,4 +1,4 @@
-import { isOdd, sum } from './../src/number-utils';
+import { sum, isOdd } from '../src/number-utils';
 
 describe('blah', () => {
   it('works', () => {
