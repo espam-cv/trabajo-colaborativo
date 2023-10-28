@@ -8,7 +8,6 @@ describe('blah', () => {
 });
 
 describe('firstValue', () => {
- 
   it('should get the first value of an array', () => {
     const mockArray = ['Roberto', 'Loayza'];
     expect(firstValue(mockArray)).toEqual('Roberto');
