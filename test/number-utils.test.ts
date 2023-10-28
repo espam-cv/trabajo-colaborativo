@@ -1,4 +1,4 @@
-import { sum, multiply} from '../src/number-utils';
+import { sum, multiply, par} from '../src/number-utils';
 
 
 
@@ -12,5 +12,14 @@ describe('blah', () => {
 describe('multiply', () => {
   it('should return multiplication of two numbers', () => {
     expect(multiply(1, 1)).toEqual(1);
+  });
+});
+
+describe('par', () => {
+  it('should return true if number is par', () => {
+    expect(par(10)).toEqual(true);
+  });
+  it('should return false if number is impar', () => {
+    expect(par(9)).toEqual(false);
   });
 });
