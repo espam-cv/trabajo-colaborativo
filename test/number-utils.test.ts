@@ -1,4 +1,4 @@
-import { sum, EsPar } from '../src/number-utils';
+import { sum, isEven } from '../src/number-utils';
 
 describe('blah', () => {
   it('works', () => {
@@ -7,11 +7,11 @@ describe('blah', () => {
 });
 
 
-describe('EsPar', () => {
+describe('isEven', () => {
   it('Should return True if the number is even', () => {
-    expect(EsPar(4)).toEqual(true);
+    expect(isEven(4)).toEqual(true);
   });
   it('Should return False if the number is odd', () => {
-    expect(EsPar(3)).toEqual(false);
+    expect(isEven(3)).toEqual(false);
   });
 });
