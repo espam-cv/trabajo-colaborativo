@@ -1,1 +1,1 @@
-export const arrayInvetir = (aray:string[]) => aray.reverse();
+export const reverseArray = (aray:string[]) => aray.reverse();
