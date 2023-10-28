@@ -11,9 +11,9 @@ export const multiply = (a: number, b: number) => {
 };
 
 export const isEven = (a: number) => {
-  if(a % 2 === 0){
+  if (a % 2 === 0) {
     return true
-  }else{
+  } else {
     return false
   }
 };
