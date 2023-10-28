@@ -10,8 +10,7 @@ export const multiply = (a: number, b: number) => {
   return a * b;
 };
 
-export const par = (a: number) => {
-  
+export const isEven = (a: number) => {
   if(a % 2 ===0){
     return true
   }else{

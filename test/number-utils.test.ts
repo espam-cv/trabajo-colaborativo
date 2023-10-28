@@ -1,4 +1,4 @@
-import { sum, multiply, par} from '../src/number-utils';
+import { sum, multiply, isEven} from '../src/number-utils';
 
 
 
@@ -15,11 +15,11 @@ describe('multiply', () => {
   });
 });
 
-describe('par', () => {
+describe('isEven', () => {
   it('should return true if number is par', () => {
-    expect(par(10)).toEqual(true);
+    expect(isEven(10)).toEqual(true);
   });
   it('should return false if number is impar', () => {
-    expect(par(9)).toEqual(false);
+    expect(isEven(9)).toEqual(false);
   });
 });
