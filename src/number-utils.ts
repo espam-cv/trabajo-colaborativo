@@ -4,6 +4,7 @@ export const sum = (a: number, b: number) => {
   }
   return a + b;
 };
+<<<<<<< HEAD
 
 export const isOdd = (a: number) => {
   if (a % 2 === 0) {
@@ -13,3 +14,11 @@ export const isOdd = (a: number) => {
   }
 };
 
+=======
+export const divide = (a: number, b: number): number => {
+  if (b === 0) {
+    throw new Error('You can\'t divide by zero');
+  }
+  return a / b;
+};
+>>>>>>> origin
